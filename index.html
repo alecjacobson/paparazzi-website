@@ -4,19 +4,17 @@
 	<meta charset="utf-8"/>
 	<title>Paparazzi: Surface Editing by way of Multi-View Image Processing</title>
 	<meta name="author" content="Gavin Barill, Neil Dickson, Ryan Schmidt, David I.W. Levin, Alec Jacobson"/>
-<meta property="og:image" content="http://www.dgp.toronto.edu/projects/fast-winding-numbers/bunny-teaser.jpg" />
-<meta property="og:description" content="Inside-outside determination is a basic building block for higher-level geometry
-processing operations.  Generalized winding numbers provide a robust answer for
-triangle meshes, regardless of defects such as self-intersections, holes or
-degeneracies.  In this paper, we further generalize the winding number to point
-clouds.  Previous methods for evaluating the winding number are slow for
-completely disconnected surfaces, such as triangle soups or--in the extreme
-case-- point clouds.  We propose a tree-based algorithm to reduce the asymptotic
-complexity of generalized winding number computation, while closely
-approximating the exact value.  Armed with a fast evaluation, we demonstrate the
-	<meta name="windingnumberinavarietyofnewapplications" content="voxelization, signing
-distances, generating 3D printer paths, defect-tolerant mesh booleans and point
-set surfaces.&quot; /&gt;
+<meta property="og:image" content="http://www.dgp.toronto.edu/projects/paparazzi/paparazzi-teaser.jpg" />
+<meta property="og:description" content="The image processing pipeline boasts a wide variety of complex filters and
+effects. Translating an individual effect to operate on 3D surface geometry inevitably
+results in a bespoke algorithm. Instead, we propose a general-purpose back-end optimization that allows users to
+edit an input 3D surface by simply selecting an off-the-shelf image processing filter. We achieve this by constructing a differentiable triangle mesh renderer, with which we can back propagate changes in the image domain to the 3D mesh
+vertex positions. The given image processing technique is applied to the entire shape via
+	<meta name="stochasticsnapshotsoftheshape" content="hence, we call our method Paparazzi. We provide simple yet important design considerations to construct the
+Paparazzi renderer and optimization algorithms. The power of this rendering-based surface editing is demonstrated via the
+variety of image processing filters we apply. Each application uses an
+off-the-shelf implementation of an image processing method without requiring
+modification to the core Paparazzi algorithm.&quot; /&gt;
 &lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot;&gt;&lt;/meta&gt;
 &lt;meta name=&quot;og:title&quot; content=&quot;Paparazzi: Surface Editing by way of Multi-View Image Processing&quot;&gt;&lt;/meta&gt;"/>
 	<link type="text/css" rel="stylesheet" href="style.css"/>
@@ -30,10 +28,14 @@ set surfaces.&quot; /&gt;
 </div>
 
 <figure>
-<img src="paparazzi-teaser.jpg" alt="" />
-</figure>
+<img src="paparazzi-teaser.jpg" alt="" /></figure>
+
+
 
 <h2 id="abstract">Abstract</h2>
+
+<p>The image processing pipeline boasts a wide variety of complex filters and effects. Translating an individual effect to operate on 3D surface geometry inevitably results in a bespoke algorithm. Instead, we propose a general-purpose back-end optimization that allows users to
+edit an input 3D surface by simply selecting an off-the-shelf image processing filter. We achieve this by constructing a differentiable triangle mesh renderer, with which we can back propagate changes in the image domain to the 3D mesh vertex positions. The given image processing technique is applied to the entire shape via stochastic snapshots of the shape: hence, we call our method Paparazzi. We provide simple yet important design considerations to construct the Paparazzi renderer and optimization algorithms. The power of this rendering-based surface editing is demonstrated via the variety of image processing filters we apply. Each application uses an off-the-shelf implementation of an image processing method without requiring modification to the core Paparazzi algorithm.</p>
 
 <h2 id="downloads">Downloads</h2>
 
@@ -59,6 +61,8 @@ set surfaces.&quot; /&gt;
 </code></pre>
 
 <h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>This work is funded in part by NSERC Discovery Grants (RGPIN2017&#8211;05235, RGPAS&#8211;2017&#8211;507938, RGPIN&#8211;2017&#8211;05524), NSERC DAS (RGPAS&#8211;2017&#8211;507909), Connaught Funds (NR2016&#8211;17), the Canada Research Chairs Program, and gifts by Adobe Systems Inc, Autodesk Inc, and Fields Institute. We thank members of Dynamic Graphics Project, including R. Abdrashitov, R. Arora, G. Barill, E. Corman, L. Fulton, T. Jeruzalski, J. Kenji, S. Kushner, D. Levin, J. Li, V. Modi, D. Moore, R. Schmidt, M. Wei, for early feedback and draft reviews; D. Nowrouzezahrai and M. McGuire for discussion on differentiable renderers and its applications.</p>
 
 </body>
 </html>
