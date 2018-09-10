@@ -21,7 +21,7 @@ css: style.css
 
 <div class=authors>
 
-HSUEH-TU DEREK LIU, MICHAEL TAO, ALEC JACOBSON, University of Toronto
+HSUEH-TI DEREK LIU, MICHAEL TAO, ALEC JACOBSON, University of Toronto
 
 </div>
 
@@ -46,7 +46,7 @@ HSUEH-TU DEREK LIU, MICHAEL TAO, ALEC JACOBSON, University of Toronto
 ```
 @article{Liu:Paparazzi:2018,
   title = {Paparazzi: Surface Editing by way of Multi-View Image Processing},
-  author = {Hsueh-Tu Derek Liu and Michael Tao and Alec Jacobson},
+  author = {Hsueh-Ti Derek Liu and Michael Tao and Alec Jacobson},
   year = {2018},
   journal = {ACM Transactions on Graphics}, 
 }
