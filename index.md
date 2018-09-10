@@ -1,4 +1,4 @@
-title: Paparazzi: Surface Editing by way of Multi-View Image Processing
+title: PAPARAZZI: Surface Editing by way of Multi-View Image Processing
 author: Hsueh-Ti Derek Liu, Michael Tao, Alec Jacobson
 html header: <meta property="og:image" content="http://www.dgp.toronto.edu/projects/paparazzi/paparazzi-teaser.jpg" />
 <meta property="og:description" content="The image processing pipeline boasts a wide variety of complex filters and
@@ -15,7 +15,7 @@ modification to the core Paparazzi algorithm." />
 <meta name="og:title" content="Paparazzi: Surface Editing by way of Multi-View Image Processing"></meta>
 css: style.css
 
-# Paparazzi: Surface Editing by way of Multi-View Image Processing _SIGGRAPH Asia 2018_
+# PAPARAZZI: Surface Editing by way of Multi-View Image Processing _SIGGRAPH Asia 2018_
 
 <div class=authors>
 
