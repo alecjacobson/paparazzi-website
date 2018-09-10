@@ -37,7 +37,7 @@ edit an input 3D surface by simply selecting an off-the-shelf image processing f
  - [Slides]()
  - [Code]()
 
-## Video
+<!-- ## Video -->
 
 <!-- Embed Youtube video here -->
 
