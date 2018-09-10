@@ -1,6 +1,6 @@
 title: Paparazzi: Surface Editing by way of Multi-View Image Processing
 author: Gavin Barill, Neil Dickson, Ryan Schmidt, David I.W. Levin, Alec Jacobson
-html header: <meta property="og:image" content="http://www.dgp.toronto.edu/projects/fast-winding-numbers/bunny-teaser.jpg" />
+html header: <meta property="og:image" content="http://www.dgp.toronto.edu/projects/paparazzi-paparazzi-teaser.jpg" />
 <meta property="og:description" content="Inside-outside determination is a basic building block for higher-level geometry
 processing operations.  Generalized winding numbers provide a robust answer for
 triangle meshes, regardless of defects such as self-intersections, holes or
