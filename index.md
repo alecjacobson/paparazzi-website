@@ -1,5 +1,5 @@
 title: Paparazzi: Surface Editing by way of Multi-View Image Processing
-author: Gavin Barill, Neil Dickson, Ryan Schmidt, David I.W. Levin, Alec Jacobson
+author: Hsueh-Ti Derek Liu, Michael Tao, Alec Jacobson
 html header: <meta property="og:image" content="http://www.dgp.toronto.edu/projects/paparazzi/paparazzi-teaser.jpg" />
 <meta property="og:description" content="The image processing pipeline boasts a wide variety of complex filters and
 effects. Translating an individual effect to operate on 3D surface geometry inevitably
