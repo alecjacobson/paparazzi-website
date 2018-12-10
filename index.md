@@ -25,7 +25,7 @@ edit an input 3D surface by simply selecting an off-the-shelf image processing f
  - [Paper](paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-liu-et-al.pdf)
  - [Paper (low res)](paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-compressed-liu-et-al.pdf)
  - [Video]()
- - [Slides]()
+ - [Slides](Paparazzi_slides.pdf)
  - [Code](https://github.com/HTDerekLiu/Paparazzi)
 
 <!-- ## Video -->
