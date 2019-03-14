@@ -24,7 +24,6 @@ edit an input 3D surface by simply selecting an off-the-shelf image processing f
 
  - [Paper](paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-liu-et-al.pdf)
  - [Paper (low res)](paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-compressed-liu-et-al.pdf)
- - [Video]()
  - [Slides](Paparazzi_slides.pdf)
  - [Code](https://github.com/HTDerekLiu/Paparazzi)
 
@@ -44,6 +43,13 @@ edit an input 3D surface by simply selecting an off-the-shelf image processing f
 ```
 
 ## Acknowledgements 
-This work is funded in part by NSERC Discovery Grants (RGPIN2017-05235, RGPAS-2017-507938, RGPIN-2017-05524), NSERC DAS (RGPAS-2017-507909), Connaught Funds (NR2016-17), the Canada Research Chairs Program, and gifts by Adobe Systems Inc, Autodesk Inc, and Fields Institute. We thank members of Dynamic Graphics Project, including R. Abdrashitov, R. Arora, G. Barill, E. Corman, L. Fulton, T. Jeruzalski, J. Kenji, S. Kushner, D. Levin, J. Li, V. Modi, D. Moore, R. Schmidt, M. Wei, for early feedback and draft reviews; D. Nowrouzezahrai and M. McGuire for discussions about differentiable renderers and their applications.
+This work is funded in part by NSERC Discovery Grants (RGPIN2017-05235,
+RGPAS-2017-507938), Connaught Funds (NR2016-17), the Canada Research Chairs
+Program, and gifts by Adobe Systems Inc, Autodesk Inc, and Fields Institute. We
+thank members of Dynamic Graphics Project, including R. Abdrashitov, R. Arora,
+G. Barill, E. Corman, L.  Fulton, T. Jeruzalski, J. Kenji, S. Kushner, D. Levin,
+J. Li, V. Modi, D. Moore, R. Schmidt, M. Wei, for early feedback and draft
+reviews; D. Nowrouzezahrai and M. McGuire for discussions about differentiable
+renderers and their applications.
 
 <!-- `multimarkdown --process-html -o index.{html,md}` -->
